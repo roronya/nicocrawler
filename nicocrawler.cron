@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ "grep" = `ps aux | grep nicocrawler.jar | head -n 1 | awk '{print $11}'` ]
+then
+    ./nicocrawler
+fi
