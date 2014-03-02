@@ -65,3 +65,12 @@ cronに登録すれば自動でマイリストの更新を確認して音楽フ�
 			  ]
 
 :albumを指定しないとartist名直下に保存されます。すなわち/home/user/Music/buzzG/以下に保存されます。
+
+設定をしたら実行します。
+
+    ./nicocrawler
+
+cron用のシェルスクリプト(nicocrawler.cron)も用意しました。cronに登録するときはこっちを使ってください。
+
+nicocrawler.cronはcronに登録した時間までに、前回のcron分の処理が終わってない場合は起動しないようになっています。
+
