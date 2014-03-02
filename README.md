@@ -81,7 +81,7 @@ cronに登録すれば自動でマイリストの更新を確認して音楽フ�
 
 設定をしたら実行します。
 
-    ./nicocrawler
+    $ /usr/local/bin/nicocrawler
 
 cron用のシェルスクリプト(nicocrawler.cron)も用意しました。cronに登録するときはこっちを使ってください。
 
