@@ -1,2 +1,2 @@
 #!/bin/sh
-java -jar nicocrawler.jar
+java -jar `pwd`/nicocrawler.jar
