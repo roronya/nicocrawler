@@ -1,5 +1,6 @@
 #nicocrawler
-32;100;2c##what?
+
+##what?
 
 設定ファイルに書かれたニコニコ動画のマイリストを監視して、動画が追加されると自動でmp3かm4aでダウンロードしてきます。
 
@@ -16,6 +17,14 @@ cronに登録すれば自動でマイリストの更新を確認して音楽フ�
     $ git clone https://github.com/roronya/nicocrawler
 	$ cd nicocrawler
 	$ chmod 755 nicocralwer
+
+##Update
+
+    $ git pull
+
+##Uninstall
+
+nicocrawlerディレクトリを削除してください。
 
 ##Usage
 
