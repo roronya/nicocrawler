@@ -1,2 +1,2 @@
 #!/bin/sh
-java -jar /usr/local/bin/nicocrawler.jar
+java -jar /usr/local/bin/nicocralwer/nicocrawler.jar
