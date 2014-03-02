@@ -23,11 +23,12 @@ cronに登録すれば自動でマイリストの更新を確認して音楽フ�
 
 ##Update
 
+    $ cd /usr/local/bin/nicocrawler
     $ git pull
 
 ##Uninstall
 
-nicocrawlerディレクトリを削除してください。
+    $rm -r /usr/local/bin/nicocrawler
 
 ##Usage
 
