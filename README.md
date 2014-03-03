@@ -18,6 +18,7 @@ cronに登録すれば自動でマイリストの更新を確認して音楽フ�
 	$ sudo mv nicocrawler /usr/local/bin
 	$ cd /usr/local/bin/nicocrawler
 	$ chmod 755 nicocralwer nicocrawler.cron
+	$ chmod 777 tmp
 
 /usr/local/bin以外のディレクトリだと動作しません。すみません。
 
